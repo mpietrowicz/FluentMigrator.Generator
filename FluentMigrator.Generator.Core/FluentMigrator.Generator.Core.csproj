@@ -10,6 +10,13 @@
         <PackageOutputPath>./nupkg</PackageOutputPath>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageVersion>1.0.1</PackageVersion>
+        <PackageId>Fluent.Migrator.Generator</PackageId>
+        <Title>Fluent.Migrator.Generator</Title>
+        <Authors>Michał Pietrowicz</Authors>
+        <PackageProjectUrl>https://github.com/mpietrowicz/FluentMigrator.Generator</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/mpietrowicz/FluentMigrator.Generator</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Fluent Migrator Generator</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
