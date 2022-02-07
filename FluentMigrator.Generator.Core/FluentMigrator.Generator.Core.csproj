@@ -17,6 +17,7 @@
         <RepositoryUrl>https://github.com/mpietrowicz/FluentMigrator.Generator</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>Fluent Migrator Generator</PackageTags>
+        <PackageLicenseUrl>https://github.com/mpietrowicz/FluentMigrator.Generator/blob/main/LICENSE</PackageLicenseUrl>
     </PropertyGroup>
 
     <ItemGroup>
