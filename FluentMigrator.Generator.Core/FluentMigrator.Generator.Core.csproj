@@ -7,10 +7,25 @@
         <Nullable>enable</Nullable>
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>fluentgenerate</ToolCommandName>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.1</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="nupkg\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="nupkg\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="nupkg\**" />
     </ItemGroup>
 
 </Project>
