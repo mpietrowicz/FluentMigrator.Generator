@@ -1,6 +1,7 @@
 # FluentMigrator.Generator
 
-## migration generation tool for FluentMigrations
+## migration generation tool for [Fluent migrations framework ( FluentMigrator )](https://fluentmigrator.github.io/)
+- installation `dotnet tool install --global Fluent.Migrator.Generator`
 - command  : fluentgenerate nameofmigration
 - creates a new directory in the current execution path named `Migrations`
 
