@@ -1,6 +1,6 @@
 # FluentMigrator.Generator
 
-## tool for generating migration fro FluentMigrations
+## migration generation tool for FluentMigrations
 - command  : fluentgenerate nameofmigration
 - creates a new directory in the current execution path named `Migrations`
 
