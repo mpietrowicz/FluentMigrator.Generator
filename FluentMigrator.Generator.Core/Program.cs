@@ -1,10 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System.Text.RegularExpressions;
+using FluentMigrator.Generator.Core;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using SF = Microsoft.CodeAnalysis.CSharp.SyntaxFactory;
 
+MigrationsBuilder.Instance.Init(args);
 
 var directory = Directory.GetCurrentDirectory();
 
